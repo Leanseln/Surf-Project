@@ -100,7 +100,7 @@ export default function App() {
             <p className="mt-4 text-lg text-gray-600">
               Bringing innovation to your fingertips with our cutting-edge AI technology.
             </p>
-            <button className="mt-8 bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800">Get Started</button>
+            <button className="mt-8 bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-800">Watch Demo</button>
           </div>
           <div>
             <img
