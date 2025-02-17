@@ -161,21 +161,21 @@ export default function App() {
                     <div className="w-6 h-6 flex items-center">
                       <Phone />
                     </div>
-                    <span>+1012 3456 789</span>
+                    <span>+63 962 3562 231</span>
                   </div>
 
                   <div className="flex items-center space-x-4">
                     <div className="w-6 h-6 flex items-center">
                       <Mail />
                     </div>
-                    <span>demo@gmail.com</span>
+                    <span>pioneer@gmail.com</span>
                   </div>
 
                   <div className="flex items-center space-x-4">
                     <div className="w-6 h-6 flex items-center">
                       <MapPin />
                     </div>
-                    <span>132 Dartmouth Street Boston, Massachusetts 02156 United States</span>
+                    <span>2.25 Pasang Awa Street, National Rd.</span>
                   </div>
                 </div>
 
@@ -295,11 +295,11 @@ export default function App() {
                 </li>
                 <li className="flex items-center space-x-3">
                   <Mail />
-                  <span>demo@gmail.com</span>
+                  <span>pioneer@gmail.com</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <MapPin />
-                  <span>132 Dartmouth Street Boston, Massachusetts 02156 United States</span>
+                  <span>2.25 Pasang Awa Street, National Rd.</span>
                 </li>
               </ul>
             </div>
