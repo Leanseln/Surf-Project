@@ -27,6 +27,16 @@ import Background from './images/bghero.png'
 import Profile from "./components/Profile"
 
 export default function App() {
+
+  const Icons = [
+    { icon: Building2, title: "Enterprise Ready" },
+    { icon: Users, title: "Team Collaboration" },
+    { icon: Zap, title: "High Performance" },
+    { icon: Shield, title: "Secure" },
+    { icon: BarChart, title: "Analytics" },
+    { icon: Search, title: "Smart Search" },
+  ]
+  
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
@@ -107,14 +117,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">Features & Technology</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            {[
-              { icon: Building2, title: "Enterprise Ready" },
-              { icon: Users, title: "Team Collaboration" },
-              { icon: Zap, title: "High Performance" },
-              { icon: Shield, title: "Secure" },
-              { icon: BarChart, title: "Analytics" },
-              { icon: Search, title: "Smart Search" },
-            ].map((feature, index) => (
+            {Icons.map((feature, index) => (
               <div key={index} className="p-6 bg-white rounded-lg shadow-sm text-center">
                 <feature.icon className="w-12 h-12 mx-auto text-blue-700 mb-4" />
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
@@ -132,12 +135,12 @@ export default function App() {
         <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
             <Profile Name="Raymart Sarmiento" Title="Project Manager" Image={Raymart} />
             <Profile Name="Leansel Nico Ortega" Title="Software Engineer" Image={Nico} />
-            <Profile Name="John Lloyd Itliong" Title="Frontend Guru" Image={Lloyd} />
-            <Profile Name="Micholo Buenafe" Title="Software Engineer" Image={Buenafe} />
-            <Profile Name="Marcus James Tapang" Title="Software Engineer" Image={Marcus} />
-            <Profile Name="Marc Jayson Tosoc" Title="Software Engineer" Image={Tosoc} />
-            <Profile Name="Juliet Bautista" Title="Software Engineer" Image={Bautista} />
-            <Profile Name="Jayann Rose Gerente" Title="Software Engineer" Image={Gerente} />
+            <Profile Name="John Lloyd Itliong" Title="Frontend Developer" Image={Lloyd} />
+            <Profile Name="Micholo Buenafe" Title="Backend Developer" Image={Buenafe} />
+            <Profile Name="Marcus James Tapang" Title="Hardware Engineer" Image={Marcus} />
+            <Profile Name="Marc Jayson Tosoc" Title="Quality Assurance Engineer" Image={Tosoc} />
+            <Profile Name="Juliet Bautista" Title="UI/UX Developer/Content Marketing" Image={Bautista} />
+            <Profile Name="Jayann Rose Gerente" Title="UI/UX Developer/Researcher" Image={Gerente} />
           </div>
           </section>
 

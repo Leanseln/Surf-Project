@@ -1,5 +1,5 @@
+/* eslint-disable react/prop-types */
 import { Facebook, Linkedin, Github } from "lucide-react";
-import Lloyd from '../images/LLOYD.jpg'; // Update with the actual image path
 
 const Profile = ({Name, Image, Title}) => {
   return (
@@ -28,5 +28,7 @@ const Profile = ({Name, Image, Title}) => {
     </div>
   );
 };
+
+
 
 export default Profile;
